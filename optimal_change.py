@@ -52,8 +52,7 @@ npartialtotal = dpartialtotal - nickel_money_back * nickel # This line of code c
 penny_money_back = int(npartialtotal / penny) + int(round((0.99),1))  # This line of code calculates the integer of the nickle partial total and divides it by the value of penny 
 penny_partial_total = npartialtotal - penny_money_back * penny # This line of code calculate the penny partial total 
 
-print(quarter_money_back, 'quarters' ) # This line of code prints out howmuch of quarter money is needed. 
+print(quarter_money_back, 'quarters' ) # This line of code prints out how much of quarter money is needed. 
 print(dimes_money_back,'dime') # This line of code prints out how much of dime money is needed. 
 print(nickel_money_back,'nickels') # # This line of code prints out how much of nickel money is needed. 
 print(penny_money_back, 'pennys') # This line of code prints out how much of penny money is needed.
-
